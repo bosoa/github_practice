@@ -15,7 +15,8 @@
       "Bash(git commit *)",
       "Bash($GH_PATH repo *)",
       "Bash(git -C /Users/jihwanpark/claude/github_practice add .claude/ CLAUDE.md)",
-      "Bash(git -C /Users/jihwanpark/claude/github_practice commit -m \"Add Claude configuration files\")"
+      "Bash(git -C /Users/jihwanpark/claude/github_practice commit -m \"Add Claude configuration files\")",
+      "Bash(git *)"
     ]
   }
 }
