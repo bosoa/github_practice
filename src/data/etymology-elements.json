@@ -1,0 +1,21 @@
+[
+  { "id": "tachy", "part": "tachy-", "role": "prefix", "origin": "Greek (tachys)", "meaning": "빠른 (fast)", "usedIn": ["tachycardia"] },
+  { "id": "brady", "part": "brady-", "role": "prefix", "origin": "Greek (bradys)", "meaning": "느린 (slow)", "usedIn": ["bradycardia"] },
+  { "id": "hyper", "part": "hyper-", "role": "prefix", "origin": "Greek (hyper)", "meaning": "초과, 과도한 (above, excessive)", "usedIn": ["hypertension", "hyperglycemia"] },
+  { "id": "hypo", "part": "hypo-", "role": "prefix", "origin": "Greek (hypo)", "meaning": "아래, 부족한 (below, under)", "usedIn": ["hypotension"] },
+  { "id": "dys", "part": "dys-", "role": "prefix", "origin": "Greek (dys)", "meaning": "어려운, 비정상 (difficult, abnormal)", "usedIn": ["dyspnea"] },
+  { "id": "myo", "part": "myo-", "role": "prefix", "origin": "Greek (mys)", "meaning": "근육 (muscle)", "usedIn": ["myocardial_infarction"] },
+  { "id": "osteo", "part": "osteo-", "role": "prefix", "origin": "Greek (osteon)", "meaning": "뼈 (bone)", "usedIn": ["osteoporosis"] },
+  { "id": "athero", "part": "athero-", "role": "prefix", "origin": "Greek (athere)", "meaning": "죽상, 지방 침착 (fatty deposit)", "usedIn": ["atherosclerosis"] },
+  { "id": "card", "part": "-card-", "role": "root", "origin": "Greek (kardia)", "meaning": "심장 (heart)", "usedIn": ["tachycardia", "bradycardia", "myocardial_infarction"] },
+  { "id": "pneumon", "part": "pneumon-", "role": "root", "origin": "Greek (pneumon)", "meaning": "폐 (lung)", "usedIn": ["pneumonia"] },
+  { "id": "pnea", "part": "-pnea", "role": "root", "origin": "Greek (pnoe)", "meaning": "호흡 (breathing)", "usedIn": ["dyspnea"] },
+  { "id": "glyc", "part": "-glyc-", "role": "root", "origin": "Greek (glykys)", "meaning": "당, 포도당 (sugar, glucose)", "usedIn": ["hyperglycemia"] },
+  { "id": "tens", "part": "-tens-", "role": "root", "origin": "Latin (tendere)", "meaning": "긴장, 압력 (tension)", "usedIn": ["hypertension", "hypotension"] },
+  { "id": "sclero", "part": "-sclero-", "role": "root", "origin": "Greek (skleros)", "meaning": "딱딱한, 경화 (hard)", "usedIn": ["atherosclerosis"] },
+  { "id": "por", "part": "-por-", "role": "root", "origin": "Greek (poros)", "meaning": "구멍 (pore)", "usedIn": ["osteoporosis"] },
+  { "id": "ia", "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태, 질병 (condition)", "usedIn": ["tachycardia", "bradycardia", "pneumonia"] },
+  { "id": "emia", "part": "-emia", "role": "suffix", "origin": "Greek (haima)", "meaning": "혈액 내 상태 (blood condition)", "usedIn": ["hyperglycemia"] },
+  { "id": "osis", "part": "-osis", "role": "suffix", "origin": "Greek", "meaning": "병적 과정 (pathological process)", "usedIn": ["atherosclerosis", "osteoporosis"] },
+  { "id": "ion", "part": "-ion", "role": "suffix", "origin": "Latin", "meaning": "행위, 상태 (action, state)", "usedIn": ["hypertension", "hypotension", "myocardial_infarction"] }
+]
