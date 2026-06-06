@@ -24,36 +24,38 @@ export default function BrowsePage() {
     useSearch();
 
   return (
-    <div className="flex flex-col gap-4 pt-4">
-      <div className="px-4">
+    <div className="flex flex-col gap-0 pt-0">
+      {/* Sticky header + search */}
+      <div className="sticky top-0 z-10 bg-gray-50 pt-4 pb-3 px-4 border-b border-gray-100 shadow-sm">
         <h1 className="text-xl font-bold text-gray-900 mb-3">용어 검색</h1>
         <SearchBar value={query} onChange={setQuery} />
+        <div className="flex gap-1.5 mt-2.5 overflow-x-auto pb-0.5 scrollbar-hide">
+          {CATEGORIES.map(({ value, label }) => (
+            <FilterChip key={value} active={categoryFilter === value} onClick={() => setCategoryFilter(value)}>
+              {label}
+            </FilterChip>
+          ))}
+        </div>
+        <div className="flex gap-1.5 mt-1.5">
+          {DIFFICULTIES.map(({ value, label }) => (
+            <FilterChip key={value} active={difficultyFilter === value} onClick={() => setDifficultyFilter(value)}>
+              {label}
+            </FilterChip>
+          ))}
+        </div>
       </div>
 
-      <div className="px-4 flex gap-1.5 overflow-x-auto pb-1 no-scrollbar">
-        {CATEGORIES.map(({ value, label }) => (
-          <FilterChip key={value} active={categoryFilter === value} onClick={() => setCategoryFilter(value)}>
-            {label}
-          </FilterChip>
-        ))}
-      </div>
-
-      <div className="px-4 flex gap-1.5">
-        {DIFFICULTIES.map(({ value, label }) => (
-          <FilterChip key={value} active={difficultyFilter === value} onClick={() => setDifficultyFilter(value)}>
-            {label}
-          </FilterChip>
-        ))}
-      </div>
-
-      <div className="px-4">
-        <p className="text-xs text-gray-400 mb-2">{results.length}개 결과</p>
-        <div className="flex flex-col gap-2.5">
+      <div className="px-4 pt-3 pb-4">
+        <p className="text-xs text-gray-400 mb-2.5">{results.length}개 결과</p>
+        <div className="flex flex-col gap-2">
           {results.map((term) => (
             <TermCard key={term.id} term={term} />
           ))}
           {results.length === 0 && (
-            <p className="text-center text-gray-400 text-sm py-12">검색 결과가 없습니다</p>
+            <div className="text-center py-16">
+              <p className="text-gray-400 text-sm">검색 결과가 없습니다</p>
+              <p className="text-gray-300 text-xs mt-1">다른 키워드로 검색해 보세요</p>
+            </div>
           )}
         </div>
       </div>
@@ -66,8 +68,10 @@ function FilterChip({ active, onClick, children }: { active: boolean; onClick: (
     <button
       onClick={onClick}
       className={cn(
-        'px-3 py-1.5 rounded-full text-xs font-medium border whitespace-nowrap transition-colors touch-manipulation flex-shrink-0',
-        active ? 'bg-blue-600 text-white border-blue-600' : 'bg-white text-gray-600 border-gray-200'
+        'px-3 py-1.5 rounded-full text-xs font-semibold border whitespace-nowrap transition-all touch-manipulation flex-shrink-0',
+        active
+          ? 'bg-blue-600 text-white border-blue-600 shadow-sm'
+          : 'bg-white text-gray-500 border-gray-200'
       )}
     >
       {children}

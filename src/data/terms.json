@@ -10,15 +10,12 @@
       "en": "Abnormally rapid heart rate exceeding 100 beats per minute, caused by exercise, fever, anxiety, or cardiac disease."
     },
     "etymology": [
-      { "part": "tachy-", "role": "prefix", "origin": "Greek (tachys)", "meaning": "빠른 (fast)", "examples": ["tachypnea", "tachyarrhythmia"] },
-      { "part": "-card-", "role": "root", "origin": "Greek (kardia)", "meaning": "심장 (heart)", "examples": ["bradycardia", "pericardium", "myocardial_infarction"] },
-      { "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태, 질병 (condition)", "examples": ["anemia", "pneumonia", "bradycardia"] }
+      { "part": "tachy-", "role": "prefix", "origin": "Greek (tachys)", "meaning": "빠른 (fast)", "examples": ["tachypnea"] },
+      { "part": "-card-", "role": "root", "origin": "Greek (kardia)", "meaning": "심장 (heart)", "examples": ["bradycardia", "myocardial_infarction"] },
+      { "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태, 질병 (condition)", "examples": ["pneumonia", "arrhythmia"] }
     ],
     "relatedTerms": ["bradycardia", "arrhythmia"],
-    "mnemonics": {
-      "ko": "'Tachy'는 택배처럼 빠르다 → 심장이 빠르게 뛴다",
-      "en": "'Tachy' sounds like 'tacky fast' → heart beats too fast"
-    },
+    "mnemonics": { "ko": "'Tachy'는 택배처럼 빠르다 → 심장이 빠르게 뛴다", "en": "'Tachy' = fast → fast heartbeat" },
     "tags": ["heart rate", "cardiac", "rhythm", "심박수", "빈맥"]
   },
   {
@@ -32,15 +29,12 @@
       "en": "Abnormally slow heart rate below 60 beats per minute. Can be normal in athletes but may indicate underlying cardiac pathology."
     },
     "etymology": [
-      { "part": "brady-", "role": "prefix", "origin": "Greek (bradys)", "meaning": "느린 (slow)", "examples": ["bradypnea", "bradykinesia"] },
-      { "part": "-card-", "role": "root", "origin": "Greek (kardia)", "meaning": "심장 (heart)", "examples": ["tachycardia", "pericardium"] },
-      { "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태, 질병 (condition)", "examples": ["tachycardia", "anemia"] }
+      { "part": "brady-", "role": "prefix", "origin": "Greek (bradys)", "meaning": "느린 (slow)", "examples": ["bradypnea"] },
+      { "part": "-card-", "role": "root", "origin": "Greek (kardia)", "meaning": "심장 (heart)", "examples": ["tachycardia"] },
+      { "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태, 질병 (condition)", "examples": ["tachycardia", "arrhythmia"] }
     ],
-    "relatedTerms": ["tachycardia"],
-    "mnemonics": {
-      "ko": "'Brady'는 그리스어로 '느린'이라는 뜻 → 심장이 느리게 뛴다",
-      "en": "'Brady Bunch' moves slowly → slow heart rate"
-    },
+    "relatedTerms": ["tachycardia", "arrhythmia"],
+    "mnemonics": { "ko": "'Brady'는 그리스어로 '느린'이라는 뜻 → 심장이 느리게 뛴다", "en": "'Brady' = slow → slow heartbeat" },
     "tags": ["heart rate", "cardiac", "rhythm", "서맥"]
   },
   {
@@ -54,15 +48,12 @@
       "en": "Persistently elevated blood pressure above 140/90 mmHg, a major risk factor for cardiovascular disease."
     },
     "etymology": [
-      { "part": "hyper-", "role": "prefix", "origin": "Greek (hyper)", "meaning": "초과, 과도한 (above, excessive)", "examples": ["hyperglycemia", "hyperthyroidism"] },
-      { "part": "-tens-", "role": "root", "origin": "Latin (tendere)", "meaning": "긴장, 압력 (tension, stretch)", "examples": ["hypotension"] },
-      { "part": "-ion", "role": "suffix", "origin": "Latin", "meaning": "행위, 상태 (action, condition)", "examples": ["hypotension", "inflammation"] }
+      { "part": "hyper-", "role": "prefix", "origin": "Greek (hyper)", "meaning": "초과, 과도한 (above, excessive)", "examples": ["hyperglycemia"] },
+      { "part": "-tens-", "role": "root", "origin": "Latin (tendere)", "meaning": "긴장, 압력 (tension)", "examples": ["hypotension"] },
+      { "part": "-ion", "role": "suffix", "origin": "Latin", "meaning": "행위, 상태 (condition)", "examples": ["hypotension"] }
     ],
     "relatedTerms": ["hypotension", "atherosclerosis"],
-    "mnemonics": {
-      "ko": "'Hyper'는 과하다 → 혈압이 과도하게 높다",
-      "en": "'Hyper' child who won't calm down → blood pressure won't come down"
-    },
+    "mnemonics": { "ko": "'Hyper'는 과하다 → 혈압이 과도하게 높다", "en": "'Hyper' = excessive → blood pressure too high" },
     "tags": ["blood pressure", "vascular", "고혈압", "혈압"]
   },
   {
@@ -84,42 +75,43 @@
     "tags": ["blood pressure", "vascular", "저혈압", "혈압"]
   },
   {
-    "id": "pneumonia",
-    "term": "Pneumonia",
-    "pronunciation": "/njuːˈmoʊniə/",
-    "category": "respiratory",
-    "difficulty": "beginner",
-    "definition": {
-      "ko": "세균, 바이러스, 곰팡이 등의 감염으로 인한 폐 실질의 염증. 발열, 기침, 호흡 곤란이 주요 증상이다.",
-      "en": "Infection-induced inflammation of the lung parenchyma, characterized by fever, productive cough, and dyspnea."
-    },
-    "etymology": [
-      { "part": "pneumon-", "role": "root", "origin": "Greek (pneumon)", "meaning": "폐 (lung)", "examples": ["pneumothorax"] },
-      { "part": "-ia", "role": "suffix", "origin": "Greek", "meaning": "상태, 질병 (condition)", "examples": ["tachycardia", "anemia"] }
-    ],
-    "relatedTerms": ["dyspnea"],
-    "mnemonics": {
-      "ko": "'Pneumo'는 폐를 의미 → 폐(pneumo)에 염증(-ia)",
-      "en": "'Pneumo' = lung → lung disease"
-    },
-    "tags": ["lung", "infection", "respiratory", "폐렴", "폐"]
-  },
-  {
-    "id": "dyspnea",
-    "term": "Dyspnea",
-    "pronunciation": "/dɪspˈniːə/",
-    "category": "respiratory",
+    "id": "arrhythmia",
+    "term": "Arrhythmia",
+    "pronunciation": "/əˈrɪðmiə/",
+    "category": "cardiovascular",
     "difficulty": "intermediate",
     "definition": {
-      "ko": "호흡 곤란 또는 숨이 차는 주관적인 느낌. 심폐 질환, 빈혈, 불안 등 다양한 원인으로 발생한다.",
-      "en": "Subjective sensation of breathing difficulty or shortness of breath, from cardiac, pulmonary, or systemic causes."
+      "ko": "심장 박동의 리듬이 불규칙하거나 비정상적인 상태. 빠르거나 느린 박동 또는 불규칙한 박동으로 나타나며, 가슴 두근거림, 어지럼증, 실신 등을 유발할 수 있다.",
+      "en": "Irregular or abnormal heart rhythm caused by disruption in the heart's electrical conduction system, presenting as palpitations, dizziness, or syncope."
     },
     "etymology": [
-      { "part": "dys-", "role": "prefix", "origin": "Greek (dys)", "meaning": "어려운, 불량한 (difficult, abnormal)", "examples": ["dysphagia", "dysarthria"] },
-      { "part": "-pnea", "role": "root", "origin": "Greek (pnoe, pnein)", "meaning": "호흡 (breathing)", "examples": ["tachypnea", "apnea"] }
+      { "part": "a-", "role": "prefix", "origin": "Greek (a-/an-)", "meaning": "없는, 부재 (without, absence of)", "examples": ["anemia", "aphasia", "apnea"] },
+      { "part": "-rhythmo-", "role": "root", "origin": "Greek (rhythmos)", "meaning": "리듬, 규칙적 흐름 (rhythm)", "examples": [] },
+      { "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태, 질병 (condition)", "examples": ["tachycardia", "pneumonia"] }
     ],
-    "relatedTerms": ["pneumonia"],
-    "tags": ["breathing", "respiratory", "호흡곤란", "증상"]
+    "relatedTerms": ["tachycardia", "bradycardia"],
+    "mnemonics": { "ko": "'a(없다)+rhythmo(리듬)' → 리듬이 없다 → 부정맥", "en": "'A-rhythm-ia' = without rhythm → irregular heartbeat" },
+    "tags": ["heart", "rhythm", "cardiac", "부정맥", "심장"]
+  },
+  {
+    "id": "angina_pectoris",
+    "term": "Angina Pectoris",
+    "pronunciation": "/ænˈdʒaɪnə ˈpektərɪs/",
+    "category": "cardiovascular",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "관상동맥 혈류 감소로 인한 심근 허혈로 발생하는 흉부 압박감 또는 통증. 주로 운동이나 스트레스 시 유발되며 휴식이나 니트로글리세린으로 완화된다.",
+      "en": "Chest pain or pressure due to myocardial ischemia from reduced coronary blood flow, typically triggered by exertion or stress and relieved by rest or nitroglycerin."
+    },
+    "etymology": [
+      { "part": "angin-", "role": "root", "origin": "Latin (angere)", "meaning": "조이다, 압박하다 (to strangle, constrict)", "examples": [] },
+      { "part": "-a", "role": "suffix", "origin": "Latin", "meaning": "명사형 어미 (noun ending)", "examples": [] },
+      { "part": "pector-", "role": "root", "origin": "Latin (pectus)", "meaning": "가슴 (chest)", "examples": [] },
+      { "part": "-is", "role": "suffix", "origin": "Latin", "meaning": "소유격 어미 (genitive ending: 'of the')", "examples": [] }
+    ],
+    "relatedTerms": ["myocardial_infarction", "atherosclerosis", "ischemia"],
+    "mnemonics": { "ko": "'Angina'는 '조인다'는 뜻, 'Pectoris'는 '가슴' → 가슴이 조여드는 통증", "en": "'Angina' = choking + 'pectoris' = chest → choking chest pain" },
+    "tags": ["chest pain", "ischemia", "coronary", "협심증", "흉통"]
   },
   {
     "id": "atherosclerosis",
@@ -133,32 +125,11 @@
     },
     "etymology": [
       { "part": "athero-", "role": "prefix", "origin": "Greek (athere)", "meaning": "죽처럼 묽은 물질, 지방 침착 (porridge-like, fatty deposit)", "examples": [] },
-      { "part": "-sclero-", "role": "root", "origin": "Greek (skleros)", "meaning": "딱딱한, 경화 (hard, hardening)", "examples": ["arteriosclerosis"] },
-      { "part": "-osis", "role": "suffix", "origin": "Greek", "meaning": "병적 과정, 상태 (pathological process)", "examples": ["fibrosis", "osteoporosis"] }
+      { "part": "-sclero-", "role": "root", "origin": "Greek (skleros)", "meaning": "딱딱한, 경화 (hard)", "examples": [] },
+      { "part": "-osis", "role": "suffix", "origin": "Greek", "meaning": "병적 과정 (pathological process)", "examples": ["osteoporosis", "fibrosis", "necrosis"] }
     ],
-    "relatedTerms": ["hypertension", "myocardial_infarction"],
+    "relatedTerms": ["hypertension", "myocardial_infarction", "ischemia"],
     "tags": ["artery", "plaque", "vascular", "동맥경화", "죽상경화"]
-  },
-  {
-    "id": "hyperglycemia",
-    "term": "Hyperglycemia",
-    "pronunciation": "/ˌhaɪpərɡlaɪˈsiːmiə/",
-    "category": "endocrine",
-    "difficulty": "intermediate",
-    "definition": {
-      "ko": "혈당 수치가 정상 범위를 초과하여 높은 상태(공복 혈당 126 mg/dL 이상). 당뇨병의 주요 증상이며 다음, 다뇨, 피로감을 유발한다.",
-      "en": "Elevated blood glucose exceeding normal fasting levels (≥126 mg/dL); hallmark of diabetes mellitus."
-    },
-    "etymology": [
-      { "part": "hyper-", "role": "prefix", "origin": "Greek", "meaning": "과도한 (excessive, above normal)", "examples": ["hypertension"] },
-      { "part": "-glyc-", "role": "root", "origin": "Greek (glykys)", "meaning": "당, 달콤한 (sweet, sugar/glucose)", "examples": ["hypoglycemia", "glycogen"] },
-      { "part": "-emia", "role": "suffix", "origin": "Greek (haima)", "meaning": "혈액 내 상태 (blood condition)", "examples": ["anemia", "hyperlipidemia"] }
-    ],
-    "mnemonics": {
-      "ko": "'Hyper(과도)+glyc(당)+emia(혈액)' → 혈액 속 당이 너무 많다",
-      "en": "'Hyper' excess + 'glyc' glucose + 'emia' in blood → too much sugar in blood"
-    },
-    "tags": ["blood sugar", "diabetes", "glucose", "고혈당", "혈당"]
   },
   {
     "id": "myocardial_infarction",
@@ -171,15 +142,272 @@
       "en": "Ischemic necrosis of myocardial tissue due to coronary artery occlusion, presenting with chest pain, dyspnea, and diaphoresis."
     },
     "etymology": [
-      { "part": "myo-", "role": "prefix", "origin": "Greek (mys)", "meaning": "근육 (muscle)", "examples": ["myositis", "myopathy"] },
+      { "part": "myo-", "role": "prefix", "origin": "Greek (mys)", "meaning": "근육 (muscle)", "examples": ["myalgia", "myositis"] },
       { "part": "-card-", "role": "root", "origin": "Greek (kardia)", "meaning": "심장 (heart)", "examples": ["tachycardia", "bradycardia"] },
-      { "part": "-ial", "role": "suffix", "origin": "Latin", "meaning": "~의, 관련된 (pertaining to)", "examples": ["arterial"] },
+      { "part": "-ial", "role": "suffix", "origin": "Latin", "meaning": "~의, 관련된 (pertaining to)", "examples": [] },
       { "part": "in-", "role": "prefix", "origin": "Latin (infarcire)", "meaning": "채워 넣다 (to stuff into)", "examples": [] },
-      { "part": "-farct-", "role": "root", "origin": "Latin (farcire)", "meaning": "꽉 막힌, 경색 (stuffed, obstructed)", "examples": [] },
-      { "part": "-ion", "role": "suffix", "origin": "Latin", "meaning": "상태, 행위 (process, condition)", "examples": ["hypertension"] }
+      { "part": "-farct-", "role": "root", "origin": "Latin (farcire)", "meaning": "꽉 막힌, 경색 (stuffed)", "examples": [] },
+      { "part": "-ion", "role": "suffix", "origin": "Latin", "meaning": "상태 (condition)", "examples": ["hypertension"] }
     ],
-    "relatedTerms": ["atherosclerosis", "tachycardia"],
+    "relatedTerms": ["atherosclerosis", "angina_pectoris", "ischemia"],
     "tags": ["heart attack", "MI", "ischemia", "심근경색", "심장마비"]
+  },
+  {
+    "id": "pneumonia",
+    "term": "Pneumonia",
+    "pronunciation": "/njuːˈmoʊniə/",
+    "category": "respiratory",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "세균, 바이러스, 곰팡이 등의 감염으로 인한 폐 실질의 염증. 발열, 기침, 호흡 곤란이 주요 증상이다.",
+      "en": "Infection-induced inflammation of the lung parenchyma, characterized by fever, productive cough, and dyspnea."
+    },
+    "etymology": [
+      { "part": "pneumon-", "role": "root", "origin": "Greek (pneumon)", "meaning": "폐 (lung)", "examples": ["pulmonary_embolism"] },
+      { "part": "-ia", "role": "suffix", "origin": "Greek", "meaning": "상태, 질병 (condition)", "examples": ["tachycardia"] }
+    ],
+    "relatedTerms": ["dyspnea", "bronchitis"],
+    "mnemonics": { "ko": "'Pneumo'는 폐를 의미 → 폐에 염증", "en": "'Pneumo' = lung → lung infection" },
+    "tags": ["lung", "infection", "respiratory", "폐렴", "폐"]
+  },
+  {
+    "id": "dyspnea",
+    "term": "Dyspnea",
+    "pronunciation": "/dɪspˈniːə/",
+    "category": "respiratory",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "호흡 곤란 또는 숨이 차는 주관적인 느낌. 심폐 질환, 빈혈, 불안 등 다양한 원인으로 발생한다.",
+      "en": "Subjective sensation of breathing difficulty or shortness of breath, from cardiac, pulmonary, or systemic causes."
+    },
+    "etymology": [
+      { "part": "dys-", "role": "prefix", "origin": "Greek (dys)", "meaning": "어려운, 비정상 (difficult, abnormal)", "examples": ["dysphagia"] },
+      { "part": "-pnea", "role": "root", "origin": "Greek (pnoe)", "meaning": "호흡 (breathing)", "examples": ["apnea", "tachypnea"] }
+    ],
+    "relatedTerms": ["pneumonia", "asthma"],
+    "tags": ["breathing", "respiratory", "호흡곤란", "증상"]
+  },
+  {
+    "id": "asthma",
+    "term": "Asthma",
+    "pronunciation": "/ˈæzmə/",
+    "category": "respiratory",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "기도의 만성 염증과 과민 반응으로 인한 기도 협착 질환. 발작적인 기침, 천명음(쌕쌕거림), 호흡 곤란이 반복적으로 나타난다.",
+      "en": "Chronic inflammatory airway disease characterized by reversible airflow obstruction, presenting with wheezing, coughing, and dyspnea."
+    },
+    "etymology": [
+      { "part": "asthm-", "role": "root", "origin": "Greek (aazein)", "meaning": "헐떡이다, 숨이 차다 (to pant, breathe hard)", "examples": [] },
+      { "part": "-a", "role": "suffix", "origin": "Greek", "meaning": "명사형 어미 (noun ending)", "examples": [] }
+    ],
+    "relatedTerms": ["dyspnea", "bronchitis"],
+    "mnemonics": { "ko": "그리스어로 '헐떡이다'에서 유래 → 숨을 헐떡이는 병", "en": "From Greek 'panting' → disease of breathlessness" },
+    "tags": ["airway", "breathing", "allergy", "천식", "기도"]
+  },
+  {
+    "id": "bronchitis",
+    "term": "Bronchitis",
+    "pronunciation": "/brɒŋˈkaɪtɪs/",
+    "category": "respiratory",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "기관지 점막의 염증. 급성은 주로 바이러스 감염으로 발생하며, 만성은 흡연 등으로 인해 2년 이상 지속되는 기침과 가래를 특징으로 한다.",
+      "en": "Inflammation of the bronchial mucosa. Acute form is usually viral; chronic form (≥2 years) is associated with smoking and productive cough."
+    },
+    "etymology": [
+      { "part": "bronch-", "role": "root", "origin": "Greek (bronchos)", "meaning": "기관지, 기도 (bronchial tube, windpipe)", "examples": ["bronchospasm"] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["gastritis", "hepatitis", "arthritis"] }
+    ],
+    "relatedTerms": ["pneumonia", "asthma"],
+    "mnemonics": { "ko": "'Bronch(기관지)+itis(염증)' → 기관지 염증", "en": "'Bronch' = airway + '-itis' = inflammation → airway inflammation" },
+    "tags": ["airway", "cough", "infection", "기관지염", "기관지"]
+  },
+  {
+    "id": "pulmonary_embolism",
+    "term": "Pulmonary Embolism",
+    "pronunciation": "/ˈpʌlməneri ˈembəlɪzəm/",
+    "category": "respiratory",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "혈전(혈액 응괴)이 폐동맥을 막아 발생하는 응급 질환. 갑작스러운 호흡 곤란, 흉통, 저산소증이 나타나며 즉각적인 치료가 필요하다.",
+      "en": "Obstruction of a pulmonary artery by a thrombus, causing sudden dyspnea, chest pain, and hypoxia requiring emergent treatment."
+    },
+    "etymology": [
+      { "part": "pulmon-", "role": "root", "origin": "Latin (pulmo)", "meaning": "폐 (lung)", "examples": [] },
+      { "part": "-ary", "role": "suffix", "origin": "Latin", "meaning": "~의, ~에 관한 (pertaining to)", "examples": [] },
+      { "part": "embol-", "role": "root", "origin": "Greek (embolos)", "meaning": "마개, 혈전 (plug, stopper)", "examples": [] },
+      { "part": "-ism", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태, 과정 (condition, process)", "examples": ["hypothyroidism"] }
+    ],
+    "relatedTerms": ["dyspnea", "ischemia"],
+    "tags": ["embolus", "thrombosis", "lung", "폐색전증", "혈전"]
+  },
+  {
+    "id": "gastritis",
+    "term": "Gastritis",
+    "pronunciation": "/ɡæˈstraɪtɪs/",
+    "category": "digestive",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "위 점막의 염증. 헬리코박터균 감염, NSAID 복용, 알코올, 스트레스 등이 원인이며 상복부 통증, 오심, 구토가 나타난다.",
+      "en": "Inflammation of the gastric mucosa, caused by H. pylori infection, NSAIDs, alcohol, or stress, presenting with epigastric pain, nausea, and vomiting."
+    },
+    "etymology": [
+      { "part": "gastr-", "role": "root", "origin": "Greek (gaster)", "meaning": "위, 복부 (stomach)", "examples": ["gastroenteritis"] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["bronchitis", "hepatitis"] }
+    ],
+    "relatedTerms": ["hepatitis", "appendicitis"],
+    "mnemonics": { "ko": "'Gastr(위)+itis(염증)' → 위 염증", "en": "'Gastr' = stomach + '-itis' = inflammation → stomach inflammation" },
+    "tags": ["stomach", "inflammation", "digestive", "위염", "위"]
+  },
+  {
+    "id": "hepatitis",
+    "term": "Hepatitis",
+    "pronunciation": "/ˌhepəˈtaɪtɪs/",
+    "category": "digestive",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "바이러스(A, B, C, D, E형), 알코올, 자가면역 등에 의한 간 염증. 황달, 피로, 식욕 부진, 우상복부 통증이 주요 증상이다.",
+      "en": "Inflammation of the liver due to viral infection (types A–E), alcohol, or autoimmune causes, presenting with jaundice, fatigue, and right upper quadrant pain."
+    },
+    "etymology": [
+      { "part": "hepat-", "role": "root", "origin": "Greek (hepar)", "meaning": "간 (liver)", "examples": ["hepatomegaly"] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["gastritis", "bronchitis"] }
+    ],
+    "relatedTerms": ["cirrhosis", "gastritis"],
+    "mnemonics": { "ko": "'Hepat(간)+itis(염증)' → 간 염증", "en": "'Hepat' = liver + '-itis' = inflammation → liver inflammation" },
+    "tags": ["liver", "virus", "jaundice", "간염", "간"]
+  },
+  {
+    "id": "cholecystitis",
+    "term": "Cholecystitis",
+    "pronunciation": "/ˌkoʊlɪsɪˈstaɪtɪs/",
+    "category": "digestive",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "담낭(쓸개)의 염증. 대부분 담석으로 인한 담관 폐쇄가 원인이며, 우상복부의 심한 통증(담석통), 발열, 오심이 나타난다.",
+      "en": "Inflammation of the gallbladder, most often caused by cystic duct obstruction by gallstones, presenting with right upper quadrant pain, fever, and nausea."
+    },
+    "etymology": [
+      { "part": "chole-", "role": "prefix", "origin": "Greek (khole)", "meaning": "담즙, 쓸개 (bile)", "examples": ["cholelithiasis"] },
+      { "part": "-cyst-", "role": "root", "origin": "Greek (kystis)", "meaning": "낭, 주머니 (sac, bladder)", "examples": ["cystitis"] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["gastritis", "hepatitis"] }
+    ],
+    "relatedTerms": ["hepatitis", "gastritis"],
+    "mnemonics": { "ko": "'Chole(담즙)+cyst(주머니)+itis(염증)' → 담낭 염증", "en": "'Chole' = bile + 'cyst' = sac + '-itis' = inflammation → bile sac inflammation" },
+    "tags": ["gallbladder", "bile", "stones", "담낭염", "담낭"]
+  },
+  {
+    "id": "appendicitis",
+    "term": "Appendicitis",
+    "pronunciation": "/əˌpendɪˈsaɪtɪs/",
+    "category": "digestive",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "충수(맹장 끝에 달린 작은 주머니)의 염증. 배꼽 주위에서 시작하여 우하복부로 이동하는 통증, 발열, 오심이 특징적이며 수술적 치료가 필요하다.",
+      "en": "Inflammation of the vermiform appendix, presenting with periumbilical pain migrating to the right lower quadrant, fever, and nausea, requiring surgical intervention."
+    },
+    "etymology": [
+      { "part": "appendic-", "role": "root", "origin": "Latin (appendix)", "meaning": "충수, 부속물 (appendix, attachment)", "examples": [] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["gastritis", "bronchitis"] }
+    ],
+    "relatedTerms": ["gastritis"],
+    "mnemonics": { "ko": "'Appendic(충수)+itis(염증)' → 충수염", "en": "'Appendic' = appendix + '-itis' = inflammation → appendix inflammation" },
+    "tags": ["appendix", "surgery", "abdomen", "충수염", "맹장"]
+  },
+  {
+    "id": "cirrhosis",
+    "term": "Cirrhosis",
+    "pronunciation": "/sɪˈroʊsɪs/",
+    "category": "digestive",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "만성 간 손상으로 인해 정상 간 조직이 섬유화 조직으로 대체되어 간 기능이 소실되는 질환. 만성 알코올 중독, B·C형 간염이 주요 원인이다.",
+      "en": "Progressive fibrotic replacement of normal liver tissue due to chronic injury (alcohol, viral hepatitis), resulting in impaired liver function."
+    },
+    "etymology": [
+      { "part": "cirrho-", "role": "root", "origin": "Greek (kirrhos)", "meaning": "황갈색의, 누런 (tawny, orange-yellow)", "examples": [] },
+      { "part": "-osis", "role": "suffix", "origin": "Greek", "meaning": "병적 상태, 과정 (pathological process)", "examples": ["atherosclerosis", "necrosis"] }
+    ],
+    "relatedTerms": ["hepatitis"],
+    "mnemonics": { "ko": "그리스어로 '황갈색' → 간이 누렇게 굳는 병", "en": "'Cirrho' = tawny (yellow-brown, like scarred liver tissue)" },
+    "tags": ["liver", "fibrosis", "alcohol", "간경변", "간"]
+  },
+  {
+    "id": "hyperglycemia",
+    "term": "Hyperglycemia",
+    "pronunciation": "/ˌhaɪpərɡlaɪˈsiːmiə/",
+    "category": "endocrine",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "혈당 수치가 정상 범위를 초과하여 높은 상태(공복 혈당 126 mg/dL 이상). 당뇨병의 주요 증상이며 다음, 다뇨, 피로감을 유발한다.",
+      "en": "Elevated blood glucose exceeding normal fasting levels (≥126 mg/dL); hallmark of diabetes mellitus."
+    },
+    "etymology": [
+      { "part": "hyper-", "role": "prefix", "origin": "Greek", "meaning": "과도한 (excessive)", "examples": ["hypertension"] },
+      { "part": "-glyc-", "role": "root", "origin": "Greek (glykys)", "meaning": "당, 포도당 (sugar, glucose)", "examples": ["hypoglycemia"] },
+      { "part": "-emia", "role": "suffix", "origin": "Greek (haima)", "meaning": "혈액 내 상태 (blood condition)", "examples": ["anemia", "leukemia", "uremia"] }
+    ],
+    "relatedTerms": ["hypoglycemia", "diabetes_mellitus"],
+    "mnemonics": { "ko": "'Hyper(과도)+glyc(당)+emia(혈액)' → 혈액 속 당이 너무 많다", "en": "'Hyper' excess + 'glyc' glucose + 'emia' blood → too much sugar in blood" },
+    "tags": ["blood sugar", "diabetes", "glucose", "고혈당", "혈당"]
+  },
+  {
+    "id": "hypoglycemia",
+    "term": "Hypoglycemia",
+    "pronunciation": "/ˌhaɪpəʊɡlaɪˈsiːmiə/",
+    "category": "endocrine",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "혈당 수치가 정상보다 낮은 상태(혈당 70 mg/dL 미만). 발한, 떨림, 두근거림, 혼란, 심한 경우 의식 소실을 유발할 수 있다.",
+      "en": "Blood glucose below 70 mg/dL, causing sweating, tremors, palpitations, confusion, and potentially loss of consciousness."
+    },
+    "etymology": [
+      { "part": "hypo-", "role": "prefix", "origin": "Greek (hypo)", "meaning": "아래, 부족한 (below, under)", "examples": ["hypotension", "hypothyroidism"] },
+      { "part": "-glyc-", "role": "root", "origin": "Greek (glykys)", "meaning": "당, 포도당 (sugar, glucose)", "examples": ["hyperglycemia"] },
+      { "part": "-emia", "role": "suffix", "origin": "Greek (haima)", "meaning": "혈액 내 상태 (blood condition)", "examples": ["hyperglycemia", "anemia"] }
+    ],
+    "relatedTerms": ["hyperglycemia", "diabetes_mellitus"],
+    "mnemonics": { "ko": "'Hypo(부족)+glyc(당)+emia(혈액)' → 혈액 속 당이 너무 적다", "en": "'Hypo' = under + 'glyc' = sugar → low blood sugar" },
+    "tags": ["blood sugar", "diabetes", "glucose", "저혈당", "혈당"]
+  },
+  {
+    "id": "diabetes_mellitus",
+    "term": "Diabetes Mellitus",
+    "pronunciation": "/ˌdaɪəˈbiːtiːz məˈlaɪtəs/",
+    "category": "endocrine",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "인슐린 분비 부족 또는 작용 이상으로 인한 만성 고혈당 질환. 1형(자가면역)과 2형(인슐린 저항성)으로 나뉘며, 다음·다뇨·체중 감소가 주요 증상이다.",
+      "en": "Chronic metabolic disorder characterized by hyperglycemia due to insulin deficiency or resistance, classified as type 1 (autoimmune) or type 2 (insulin resistance)."
+    },
+    "etymology": [
+      { "part": "dia-", "role": "prefix", "origin": "Greek (dia)", "meaning": "통과하여 (through, passing)", "examples": [] },
+      { "part": "-betes", "role": "root", "origin": "Greek (bainein)", "meaning": "지나가다 (to pass through)", "examples": [] },
+      { "part": "mellitus", "role": "root", "origin": "Latin (mel)", "meaning": "꿀처럼 달콤한 (honey-sweet)", "examples": [] }
+    ],
+    "relatedTerms": ["hyperglycemia", "hypoglycemia"],
+    "mnemonics": { "ko": "'Mellitus'는 라틴어로 꿀 → 소변에서 단맛이 난다는 옛 진단법에서 유래", "en": "'Mellitus' = honey-sweet → urine smelled sweet (ancient diagnosis)" },
+    "tags": ["insulin", "glucose", "blood sugar", "당뇨병", "인슐린"]
+  },
+  {
+    "id": "hypothyroidism",
+    "term": "Hypothyroidism",
+    "pronunciation": "/ˌhaɪpəʊˈθaɪrɔɪdɪzəm/",
+    "category": "endocrine",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "갑상선 호르몬 분비가 부족한 상태. 피로, 체중 증가, 변비, 추위 과민, 피부 건조 등이 나타나며, 하시모토 갑상선염이 가장 흔한 원인이다.",
+      "en": "Deficient thyroid hormone production causing fatigue, weight gain, constipation, cold intolerance, and dry skin; Hashimoto's thyroiditis is the most common cause."
+    },
+    "etymology": [
+      { "part": "hypo-", "role": "prefix", "origin": "Greek (hypo)", "meaning": "아래, 부족한 (below, deficient)", "examples": ["hypotension", "hypoglycemia"] },
+      { "part": "-thyroid-", "role": "root", "origin": "Greek (thyreoeides)", "meaning": "갑상선 (thyroid gland, shield-shaped)", "examples": [] },
+      { "part": "-ism", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태, 과정 (condition, process)", "examples": ["embolism"] }
+    ],
+    "relatedTerms": ["hyperglycemia"],
+    "mnemonics": { "ko": "'Hypo(부족)+thyroid(갑상선)' → 갑상선 기능이 저하된 상태", "en": "'Hypo' = under + 'thyroid' → underactive thyroid" },
+    "tags": ["thyroid", "hormone", "metabolism", "갑상선기능저하", "갑상선"]
   },
   {
     "id": "osteoporosis",
@@ -192,14 +420,342 @@
       "en": "Metabolic bone disease characterized by decreased bone mineral density and microarchitectural deterioration, increasing fracture risk."
     },
     "etymology": [
-      { "part": "osteo-", "role": "prefix", "origin": "Greek (osteon)", "meaning": "뼈 (bone)", "examples": ["osteomyelitis", "osteoarthritis"] },
+      { "part": "osteo-", "role": "prefix", "origin": "Greek (osteon)", "meaning": "뼈 (bone)", "examples": ["osteomyelitis", "arthritis"] },
       { "part": "-por-", "role": "root", "origin": "Greek (poros)", "meaning": "구멍, 다공성 (pore, passage)", "examples": [] },
-      { "part": "-osis", "role": "suffix", "origin": "Greek", "meaning": "병적 상태, 과정 (pathological condition)", "examples": ["atherosclerosis"] }
+      { "part": "-osis", "role": "suffix", "origin": "Greek", "meaning": "병적 상태 (pathological condition)", "examples": ["atherosclerosis", "cirrhosis"] }
     ],
-    "mnemonics": {
-      "ko": "'Osteo(뼈)+por(구멍)+osis(상태)' → 뼈에 구멍이 생기는 상태",
-      "en": "'Osteo' bone + 'porous' full of holes → bones become porous and weak"
-    },
+    "relatedTerms": ["arthritis", "osteomyelitis"],
+    "mnemonics": { "ko": "'Osteo(뼈)+por(구멍)+osis' → 뼈에 구멍이 생기는 상태", "en": "'Osteo' bone + 'porous' → bones become porous and weak" },
     "tags": ["bone", "density", "fracture", "골다공증", "뼈"]
+  },
+  {
+    "id": "arthritis",
+    "term": "Arthritis",
+    "pronunciation": "/ɑːrˈθraɪtɪs/",
+    "category": "musculoskeletal",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "관절의 염증. 골관절염(퇴행성)과 류마티스 관절염(자가면역) 등 다양한 유형이 있으며, 관절 통증, 종창, 강직이 주요 증상이다.",
+      "en": "Inflammation of one or more joints, categorized as osteoarthritis (degenerative) or rheumatoid arthritis (autoimmune), causing pain, swelling, and stiffness."
+    },
+    "etymology": [
+      { "part": "arthr-", "role": "root", "origin": "Greek (arthron)", "meaning": "관절 (joint)", "examples": ["arthroscopy"] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["gastritis", "bronchitis"] }
+    ],
+    "relatedTerms": ["osteoporosis", "osteomyelitis"],
+    "mnemonics": { "ko": "'Arthr(관절)+itis(염증)' → 관절 염증", "en": "'Arthr' = joint + '-itis' = inflammation → joint inflammation" },
+    "tags": ["joint", "pain", "inflammation", "관절염", "관절"]
+  },
+  {
+    "id": "osteomyelitis",
+    "term": "Osteomyelitis",
+    "pronunciation": "/ˌɒstiəʊmaɪəˈlaɪtɪs/",
+    "category": "musculoskeletal",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "세균 감염으로 인한 뼈와 골수의 염증. 황색포도상구균이 가장 흔한 원인이며, 발열, 국소 통증, 부종이 나타난다.",
+      "en": "Infection and inflammation of bone and bone marrow, most commonly caused by S. aureus, presenting with fever, localized pain, and swelling."
+    },
+    "etymology": [
+      { "part": "osteo-", "role": "prefix", "origin": "Greek (osteon)", "meaning": "뼈 (bone)", "examples": ["osteoporosis"] },
+      { "part": "-myel-", "role": "root", "origin": "Greek (myelos)", "meaning": "골수, 수질 (bone marrow, medulla)", "examples": ["leukemia"] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["arthritis", "gastritis"] }
+    ],
+    "relatedTerms": ["arthritis", "osteoporosis"],
+    "mnemonics": { "ko": "'Osteo(뼈)+myel(골수)+itis(염증)' → 뼈와 골수의 염증", "en": "'Osteo' = bone + 'myelo' = marrow + '-itis' = inflammation" },
+    "tags": ["bone", "infection", "marrow", "골수염", "뼈"]
+  },
+  {
+    "id": "myalgia",
+    "term": "Myalgia",
+    "pronunciation": "/maɪˈælɡiə/",
+    "category": "musculoskeletal",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "근육통. 과도한 운동, 바이러스 감염(독감), 약물 부작용(스타틴), 섬유근육통 등 다양한 원인으로 발생할 수 있다.",
+      "en": "Muscle pain arising from overexertion, viral infection (influenza), medication side effects (statins), or fibromyalgia."
+    },
+    "etymology": [
+      { "part": "my-", "role": "prefix", "origin": "Greek (mys)", "meaning": "근육 (muscle)", "examples": ["myocardial_infarction"] },
+      { "part": "-algia", "role": "suffix", "origin": "Greek (algos)", "meaning": "통증 (pain)", "examples": ["neuralgia"] }
+    ],
+    "relatedTerms": ["arthritis"],
+    "mnemonics": { "ko": "'Myo(근육)+algia(통증)' → 근육 통증", "en": "'My' = muscle + '-algia' = pain → muscle pain" },
+    "tags": ["muscle", "pain", "근육통", "근육"]
+  },
+  {
+    "id": "neuralgia",
+    "term": "Neuralgia",
+    "pronunciation": "/njʊˈrælɡiə/",
+    "category": "neurological",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "신경을 따라 나타나는 날카롭고 타는 듯한 통증. 삼차신경통, 대상포진 후 신경통 등이 대표적이며 신경 손상이나 압박으로 인해 발생한다.",
+      "en": "Sharp, burning pain along the course of a nerve, as in trigeminal neuralgia or post-herpetic neuralgia, caused by nerve damage or compression."
+    },
+    "etymology": [
+      { "part": "neur-", "role": "root", "origin": "Greek (neuron)", "meaning": "신경 (nerve)", "examples": ["meningitis", "encephalitis"] },
+      { "part": "-algia", "role": "suffix", "origin": "Greek (algos)", "meaning": "통증 (pain)", "examples": ["myalgia"] }
+    ],
+    "relatedTerms": ["meningitis", "encephalitis"],
+    "mnemonics": { "ko": "'Neur(신경)+algia(통증)' → 신경을 따라 오는 통증", "en": "'Neur' = nerve + '-algia' = pain → nerve pain" },
+    "tags": ["nerve", "pain", "neurological", "신경통", "신경"]
+  },
+  {
+    "id": "meningitis",
+    "term": "Meningitis",
+    "pronunciation": "/ˌmenɪnˈdʒaɪtɪs/",
+    "category": "neurological",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "뇌와 척수를 감싸는 수막(뇌수막)의 염증. 세균성과 바이러스성이 있으며, 발열, 두통, 경부 강직(목 뻣뻣함), 광선 공포증이 특징적이다.",
+      "en": "Inflammation of the meninges (membranes surrounding the brain and spinal cord), presenting with fever, severe headache, nuchal rigidity, and photophobia."
+    },
+    "etymology": [
+      { "part": "mening-", "role": "root", "origin": "Greek (meninx)", "meaning": "수막, 막 (meninges, membrane)", "examples": [] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["encephalitis", "bronchitis"] }
+    ],
+    "relatedTerms": ["encephalitis", "neuralgia"],
+    "mnemonics": { "ko": "'Mening(수막)+itis(염증)' → 뇌수막 염증", "en": "'Mening' = meninges (brain membrane) + '-itis' = inflammation" },
+    "tags": ["meninges", "brain", "infection", "뇌수막염", "수막"]
+  },
+  {
+    "id": "encephalitis",
+    "term": "Encephalitis",
+    "pronunciation": "/ɪnˌsefəˈlaɪtɪs/",
+    "category": "neurological",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "뇌 실질의 염증. 주로 바이러스(헤르페스, 일본 뇌염 바이러스 등) 감염으로 발생하며, 발열, 두통, 의식 변화, 경련이 나타난다.",
+      "en": "Inflammation of the brain parenchyma, usually viral (herpes simplex, Japanese encephalitis), presenting with fever, headache, altered consciousness, and seizures."
+    },
+    "etymology": [
+      { "part": "en-", "role": "prefix", "origin": "Greek (en)", "meaning": "안에, 내부 (in, within)", "examples": [] },
+      { "part": "-cephal-", "role": "root", "origin": "Greek (kephalos)", "meaning": "머리, 뇌 (head, brain)", "examples": [] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["meningitis", "bronchitis"] }
+    ],
+    "relatedTerms": ["meningitis", "neuralgia"],
+    "mnemonics": { "ko": "'En(안)+cephal(뇌)+itis(염증)' → 뇌 안의 염증", "en": "'En' = in + 'cephal' = brain + '-itis' = inflammation → brain inflammation" },
+    "tags": ["brain", "virus", "neurological", "뇌염", "뇌"]
+  },
+  {
+    "id": "hemiplegia",
+    "term": "Hemiplegia",
+    "pronunciation": "/ˌhemiˈpliːdʒiə/",
+    "category": "neurological",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "신체 한쪽(왼쪽 또는 오른쪽)의 완전한 마비. 주로 반대측 대뇌 반구의 뇌졸중, 뇌종양, 또는 외상에 의해 발생한다.",
+      "en": "Complete paralysis of one side of the body (left or right), typically caused by a contralateral cerebral stroke, tumor, or trauma."
+    },
+    "etymology": [
+      { "part": "hemi-", "role": "prefix", "origin": "Greek (hemi)", "meaning": "절반, 한쪽 (half, one side)", "examples": ["hemiparesis"] },
+      { "part": "-plegia", "role": "suffix", "origin": "Greek (plege)", "meaning": "마비 (paralysis, stroke)", "examples": ["paraplegia"] }
+    ],
+    "relatedTerms": ["encephalitis", "aphasia"],
+    "mnemonics": { "ko": "'Hemi(반쪽)+plegia(마비)' → 반쪽 마비", "en": "'Hemi' = half + '-plegia' = paralysis → half-body paralysis" },
+    "tags": ["paralysis", "stroke", "brain", "반신불수", "마비"]
+  },
+  {
+    "id": "aphasia",
+    "term": "Aphasia",
+    "pronunciation": "/əˈfeɪziə/",
+    "category": "neurological",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "뇌 손상으로 인한 언어 능력의 장애. 말하거나 이해하거나 읽고 쓰는 능력이 손상되며, 주로 좌측 대뇌 언어 영역(브로카, 베르니케 영역)의 손상으로 발생한다.",
+      "en": "Acquired language disorder due to brain damage affecting speech, comprehension, reading, or writing, typically from left hemisphere damage (Broca's or Wernicke's area)."
+    },
+    "etymology": [
+      { "part": "a-", "role": "prefix", "origin": "Greek (a-)", "meaning": "없는, 부재 (without, absence)", "examples": ["arrhythmia", "anemia"] },
+      { "part": "-phas-", "role": "root", "origin": "Greek (phasis, phanai)", "meaning": "말, 언어 (speech, utterance)", "examples": ["dysphasia"] },
+      { "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태 (condition)", "examples": ["arrhythmia"] }
+    ],
+    "relatedTerms": ["hemiplegia", "encephalitis"],
+    "mnemonics": { "ko": "'a(없다)+phasia(말)' → 말을 할 수 없는 상태", "en": "'A' = without + 'phasia' = speech → loss of speech" },
+    "tags": ["speech", "language", "stroke", "실어증", "언어"]
+  },
+  {
+    "id": "nephritis",
+    "term": "Nephritis",
+    "pronunciation": "/nɪˈfraɪtɪs/",
+    "category": "renal",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "신장(콩팥)의 염증. 사구체신염, 간질성 신염 등이 있으며 부종, 혈뇨, 단백뇨, 고혈압을 유발하고 신부전으로 진행할 수 있다.",
+      "en": "Inflammation of the kidney, including glomerulonephritis and interstitial nephritis, presenting with edema, hematuria, proteinuria, and hypertension."
+    },
+    "etymology": [
+      { "part": "nephr-", "role": "root", "origin": "Greek (nephros)", "meaning": "신장, 콩팥 (kidney)", "examples": ["hematuria"] },
+      { "part": "-itis", "role": "suffix", "origin": "Greek", "meaning": "염증 (inflammation)", "examples": ["gastritis", "hepatitis"] }
+    ],
+    "relatedTerms": ["hematuria", "uremia", "edema"],
+    "mnemonics": { "ko": "'Nephr(콩팥)+itis(염증)' → 콩팥 염증", "en": "'Nephr' = kidney + '-itis' = inflammation → kidney inflammation" },
+    "tags": ["kidney", "renal", "inflammation", "신장염", "콩팥"]
+  },
+  {
+    "id": "hematuria",
+    "term": "Hematuria",
+    "pronunciation": "/ˌhiːməˈtjʊəriə/",
+    "category": "renal",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "소변에 적혈구(혈액)가 섞여 나오는 상태. 육안 혈뇨(붉은 소변)와 현미경적 혈뇨로 나뉘며, 신장염, 요로결석, 방광암 등이 원인이 될 수 있다.",
+      "en": "Presence of red blood cells in urine, classified as gross (visible) or microscopic; causes include nephritis, kidney stones, and bladder cancer."
+    },
+    "etymology": [
+      { "part": "hemat-", "role": "root", "origin": "Greek (haima)", "meaning": "혈액 (blood)", "examples": ["hematology"] },
+      { "part": "-ur-", "role": "root", "origin": "Greek (ouron)", "meaning": "소변 (urine)", "examples": ["uremia"] },
+      { "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태 (condition)", "examples": ["tachycardia"] }
+    ],
+    "relatedTerms": ["nephritis", "uremia"],
+    "mnemonics": { "ko": "'Hemat(혈액)+uria(소변)' → 소변에 혈액이 있는 상태", "en": "'Hemat' = blood + 'uria' = urine → blood in urine" },
+    "tags": ["blood", "urine", "kidney", "혈뇨", "소변"]
+  },
+  {
+    "id": "uremia",
+    "term": "Uremia",
+    "pronunciation": "/jʊˈriːmiə/",
+    "category": "renal",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "신부전으로 인해 요소(urea) 등 질소성 노폐물이 혈액에 축적되는 상태. 오심, 구토, 피로, 의식 변화, 심낭염 등 전신 증상을 유발한다.",
+      "en": "Accumulation of urea and nitrogenous waste products in blood due to renal failure, causing nausea, fatigue, altered mental status, and pericarditis."
+    },
+    "etymology": [
+      { "part": "ur-", "role": "root", "origin": "Greek (ouron)", "meaning": "소변, 요소 (urine, urea)", "examples": ["hematuria"] },
+      { "part": "-emia", "role": "suffix", "origin": "Greek (haima)", "meaning": "혈액 내 상태 (blood condition)", "examples": ["anemia", "septicemia"] }
+    ],
+    "relatedTerms": ["nephritis", "hematuria"],
+    "mnemonics": { "ko": "'Ur(요소)+emia(혈액)' → 혈액 속에 요소가 가득 찬 상태", "en": "'Ur' = urea + '-emia' = in blood → urea in blood" },
+    "tags": ["kidney failure", "renal", "waste", "요독증", "신부전"]
+  },
+  {
+    "id": "anemia",
+    "term": "Anemia",
+    "pronunciation": "/əˈniːmiə/",
+    "category": "hematology",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "혈액 내 적혈구 수 또는 헤모글로빈 농도가 정상보다 낮은 상태. 피로, 창백함, 어지럼증, 호흡 곤란이 나타나며 철 결핍이 가장 흔한 원인이다.",
+      "en": "Reduced red blood cell count or hemoglobin concentration, causing fatigue, pallor, dizziness, and dyspnea; iron deficiency is the most common cause."
+    },
+    "etymology": [
+      { "part": "an-", "role": "prefix", "origin": "Greek (an-/a-)", "meaning": "없는, 부재 (without, lack of)", "examples": ["arrhythmia", "aphasia"] },
+      { "part": "-em-", "role": "root", "origin": "Greek (haima)", "meaning": "혈액 (blood)", "examples": ["leukemia", "septicemia"] },
+      { "part": "-ia", "role": "suffix", "origin": "Greek / Latin", "meaning": "상태 (condition)", "examples": ["tachycardia"] }
+    ],
+    "relatedTerms": ["leukemia", "thrombocytopenia"],
+    "mnemonics": { "ko": "'An(없다)+emia(혈액)' → 혈액(적혈구)이 부족한 상태", "en": "'An' = without + 'emia' = blood → lack of (red) blood cells" },
+    "tags": ["red blood cell", "hemoglobin", "iron", "빈혈", "혈액"]
+  },
+  {
+    "id": "leukemia",
+    "term": "Leukemia",
+    "pronunciation": "/luːˈkiːmiə/",
+    "category": "hematology",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "백혈구의 악성 증식을 특징으로 하는 혈액암. 급성과 만성, 골수성과 림프구성으로 분류되며, 발열, 피로, 출혈 경향, 림프절 종대가 나타난다.",
+      "en": "Malignant proliferation of white blood cells in bone marrow and blood, classified by acuity and cell lineage, presenting with fever, fatigue, bleeding, and lymphadenopathy."
+    },
+    "etymology": [
+      { "part": "leuk-", "role": "root", "origin": "Greek (leukos)", "meaning": "하얀, 무색의 (white, colorless)", "examples": ["leukocyte"] },
+      { "part": "-emia", "role": "suffix", "origin": "Greek (haima)", "meaning": "혈액 내 상태 (blood condition)", "examples": ["anemia", "uremia"] }
+    ],
+    "relatedTerms": ["anemia", "thrombocytopenia"],
+    "mnemonics": { "ko": "'Leuk(흰)+emia(혈액)' → 혈액 속 백혈구가 비정상적으로 많아지는 암", "en": "'Leuk' = white + '-emia' = blood → white blood cell cancer" },
+    "tags": ["cancer", "white blood cell", "bone marrow", "백혈병", "혈액암"]
+  },
+  {
+    "id": "thrombocytopenia",
+    "term": "Thrombocytopenia",
+    "pronunciation": "/ˌθrɒmbəʊˌsaɪtəˈpiːniə/",
+    "category": "hematology",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "혈소판 수가 정상 이하(150,000/μL 미만)로 감소한 상태. 출혈 시간 연장, 점상 출혈, 자반이 나타나며, 면역 혈소판 감소증(ITP), 약물, 골수 질환 등이 원인이다.",
+      "en": "Platelet count below 150,000/μL, causing prolonged bleeding, petechiae, and purpura; caused by ITP, medications, or bone marrow disorders."
+    },
+    "etymology": [
+      { "part": "thrombo-", "role": "prefix", "origin": "Greek (thrombos)", "meaning": "혈전, 응괴 (clot, lump)", "examples": ["thrombosis"] },
+      { "part": "-cyto-", "role": "root", "origin": "Greek (kytos)", "meaning": "세포 (cell)", "examples": ["leukocyte"] },
+      { "part": "-penia", "role": "suffix", "origin": "Greek (penia)", "meaning": "결핍, 감소 (deficiency, poverty)", "examples": ["leukopenia"] }
+    ],
+    "relatedTerms": ["anemia", "leukemia"],
+    "mnemonics": { "ko": "'Thrombo(혈전)+cyto(세포)+penia(부족)' → 혈소판(혈전 세포)이 부족한 상태", "en": "'Thrombo' = clot + 'cyto' = cell + '-penia' = deficiency → low platelet count" },
+    "tags": ["platelet", "bleeding", "clotting", "혈소판감소증", "혈소판"]
+  },
+  {
+    "id": "edema",
+    "term": "Edema",
+    "pronunciation": "/ɪˈdiːmə/",
+    "category": "general",
+    "difficulty": "beginner",
+    "definition": {
+      "ko": "조직 간질에 과도한 체액이 축적되어 발생하는 부종. 심부전, 신부전, 저단백혈증, 염증 등 다양한 원인이 있으며 누르면 들어가는 함요 부종이 특징적이다.",
+      "en": "Abnormal accumulation of fluid in interstitial tissue causing swelling; causes include heart failure, renal failure, hypoalbuminemia, and inflammation."
+    },
+    "etymology": [
+      { "part": "oide-", "role": "root", "origin": "Greek (oidema, oidein)", "meaning": "부어오르다, 팽창 (to swell)", "examples": [] },
+      { "part": "-ma", "role": "suffix", "origin": "Greek", "meaning": "결과, 상태 (result, condition)", "examples": ["hematoma"] }
+    ],
+    "relatedTerms": ["nephritis", "hypertension"],
+    "mnemonics": { "ko": "그리스어로 '부어오르다'에서 유래 → 조직이 부어오른 상태", "en": "Greek 'oidein' = to swell → swelling of tissue" },
+    "tags": ["swelling", "fluid", "inflammation", "부종", "붓기"]
+  },
+  {
+    "id": "ischemia",
+    "term": "Ischemia",
+    "pronunciation": "/ɪˈskiːmiə/",
+    "category": "general",
+    "difficulty": "intermediate",
+    "definition": {
+      "ko": "혈류 감소로 인한 조직의 산소 및 영양 공급 부족 상태. 관상동맥 질환, 말초혈관 질환 등에서 발생하며, 허혈이 지속되면 조직 괴사로 진행한다.",
+      "en": "Insufficient blood supply to tissue causing oxygen and nutrient deprivation; if prolonged, progresses to necrosis."
+    },
+    "etymology": [
+      { "part": "isch-", "role": "root", "origin": "Greek (ischein)", "meaning": "억제하다, 막다 (to hold back, restrain)", "examples": [] },
+      { "part": "-emia", "role": "suffix", "origin": "Greek (haima)", "meaning": "혈액 내 상태 (blood condition)", "examples": ["anemia", "uremia"] }
+    ],
+    "relatedTerms": ["myocardial_infarction", "atherosclerosis", "necrosis"],
+    "mnemonics": { "ko": "'Isch(막다)+emia(혈액)' → 혈액이 막혀서 부족한 상태", "en": "'Isch' = hold back + 'emia' = blood → blood flow held back" },
+    "tags": ["blood flow", "oxygen", "vascular", "허혈", "혈류"]
+  },
+  {
+    "id": "necrosis",
+    "term": "Necrosis",
+    "pronunciation": "/nɪˈkroʊsɪs/",
+    "category": "general",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "허혈, 독소, 감염, 외상 등 외부 요인에 의한 세포 또는 조직의 병적 사망. 염증 반응을 동반하며 아포토시스(세포 자멸사)와 구별된다.",
+      "en": "Pathological cell/tissue death due to external injury (ischemia, toxins, infection, trauma), accompanied by inflammation; distinct from apoptosis."
+    },
+    "etymology": [
+      { "part": "necr-", "role": "root", "origin": "Greek (nekros)", "meaning": "죽음, 시체 (death, corpse)", "examples": ["necrotizing"] },
+      { "part": "-osis", "role": "suffix", "origin": "Greek", "meaning": "병적 과정 (pathological process)", "examples": ["atherosclerosis", "cirrhosis"] }
+    ],
+    "relatedTerms": ["ischemia", "myocardial_infarction"],
+    "mnemonics": { "ko": "'Necr(죽음)+osis(상태)' → 조직이 죽는 상태", "en": "'Necr' = death + '-osis' = process → tissue death" },
+    "tags": ["cell death", "tissue", "pathology", "괴사", "세포사"]
+  },
+  {
+    "id": "septicemia",
+    "term": "Septicemia",
+    "pronunciation": "/ˌseptɪˈsiːmiə/",
+    "category": "general",
+    "difficulty": "advanced",
+    "definition": {
+      "ko": "세균이나 그 독소가 혈액 속으로 침입하여 전신에 퍼지는 혈액 감염(패혈증). 고열, 오한, 빠른 맥박, 저혈압, 의식 변화 등 전신 염증 반응을 유발하며 생명을 위협하는 응급 상황이다.",
+      "en": "Systemic bloodstream infection by bacteria or their toxins (blood poisoning), presenting with fever, chills, tachycardia, hypotension, and altered consciousness; a life-threatening emergency."
+    },
+    "etymology": [
+      { "part": "septic-", "role": "root", "origin": "Greek (septikos)", "meaning": "부패, 감염 (putrefaction, infection)", "examples": ["sepsis"] },
+      { "part": "-emia", "role": "suffix", "origin": "Greek (haima)", "meaning": "혈액 내 상태 (blood condition)", "examples": ["anemia", "uremia"] }
+    ],
+    "relatedTerms": ["necrosis", "ischemia"],
+    "mnemonics": { "ko": "'Septic(부패)+emia(혈액)' → 혈액 속에 세균이 퍼진 상태", "en": "'Septic' = infection + '-emia' = in blood → infection in blood" },
+    "tags": ["infection", "bacteria", "blood", "패혈증", "혈액감염"]
   }
 ]

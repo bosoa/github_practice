@@ -5,19 +5,12 @@ import { useRouter } from 'next/navigation';
 import type { QuizConfig, Category, Difficulty, QuizType } from '@/types';
 import { useQuizStore } from '@/stores/quizStore';
 import { Button } from '@/components/ui/Button';
-import { CATEGORY_LABELS, DIFFICULTY_LABELS } from '@/lib/data';
+import { CATEGORY_LABELS, DIFFICULTY_LABELS, filterTerms } from '@/lib/data';
 import { cn } from '@/lib/utils';
 
 const CATEGORIES: Array<{ value: Category | 'all'; label: string }> = [
   { value: 'all', label: '전체' },
   ...Object.entries(CATEGORY_LABELS).map(([k, v]) => ({ value: k as Category, label: v })),
-];
-
-const DIFFICULTIES: Array<{ value: Difficulty | 'all'; label: string }> = [
-  { value: 'all', label: '전체' },
-  { value: 'beginner', label: '초급' },
-  { value: 'intermediate', label: '중급' },
-  { value: 'advanced', label: '고급' },
 ];
 
 export function QuizSetup() {
@@ -28,15 +21,18 @@ export function QuizSetup() {
   const [questionCount, setQuestionCount] = useState(10);
   const [quizType, setQuizType] = useState<QuizType>('multiple-choice');
 
+  const available = filterTerms(category, difficulty).length;
+  const actual = Math.min(questionCount, available);
+
   const handleStart = () => {
-    const config: QuizConfig = { category, difficulty, questionCount, quizType };
+    const config: QuizConfig = { category, difficulty, questionCount: actual, quizType };
     setConfig(config);
     startQuiz();
     router.push('/quiz/session');
   };
 
   return (
-    <div className="flex flex-col gap-6 px-4 py-4">
+    <div className="flex flex-col gap-4 px-4 pb-4">
       <Section title="카테고리">
         <div className="flex flex-wrap gap-2">
           {CATEGORIES.map(({ value, label }) => (
@@ -47,8 +43,10 @@ export function QuizSetup() {
 
       <Section title="난이도">
         <div className="flex gap-2">
-          {DIFFICULTIES.map(({ value, label }) => (
-            <Chip key={value} active={difficulty === value} onClick={() => setDifficulty(value)}>{label}</Chip>
+          {(['all', 'beginner', 'intermediate', 'advanced'] as const).map((d) => (
+            <Chip key={d} active={difficulty === d} onClick={() => setDifficulty(d)}>
+              {d === 'all' ? '전체' : DIFFICULTY_LABELS[d]}
+            </Chip>
           ))}
         </div>
       </Section>
@@ -68,15 +66,29 @@ export function QuizSetup() {
         </div>
       </Section>
 
-      <Button size="lg" onClick={handleStart} className="mt-2">퀴즈 시작</Button>
+      {/* Summary */}
+      <div className="bg-blue-50 rounded-2xl p-4 flex items-center justify-between border border-blue-100">
+        <div>
+          <p className="text-sm font-semibold text-blue-800">출제 예정</p>
+          <p className="text-xs text-blue-500 mt-0.5">선택 조건에 해당하는 용어 {available}개 중</p>
+        </div>
+        <p className="text-3xl font-extrabold text-blue-700">{actual}<span className="text-base font-semibold ml-0.5">문제</span></p>
+      </div>
+
+      <Button size="lg" onClick={handleStart} disabled={available === 0}>
+        퀴즈 시작
+      </Button>
+      {available === 0 && (
+        <p className="text-xs text-center text-red-400">해당 조건의 용어가 없습니다</p>
+      )}
     </div>
   );
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="flex flex-col gap-2.5">
-      <p className="text-sm font-semibold text-gray-700">{title}</p>
+    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 flex flex-col gap-3">
+      <p className="text-sm font-bold text-gray-800">{title}</p>
       {children}
     </div>
   );
@@ -87,10 +99,10 @@ function Chip({ active, onClick, children }: { active: boolean; onClick: () => v
     <button
       onClick={onClick}
       className={cn(
-        'px-3.5 py-2 rounded-xl text-sm font-medium border transition-colors touch-manipulation',
+        'px-3.5 py-2 rounded-xl text-sm font-semibold border transition-all touch-manipulation',
         active
-          ? 'bg-blue-600 text-white border-blue-600'
-          : 'bg-white text-gray-600 border-gray-200 hover:bg-gray-50'
+          ? 'bg-blue-600 text-white border-blue-600 shadow-sm'
+          : 'bg-gray-50 text-gray-600 border-gray-200 hover:bg-gray-100'
       )}
     >
       {children}
